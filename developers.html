@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainforest Pay</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="./script.js" defer></script>
+    <script src="./jquery.js"></script>
+</head>
+
+<body>
+    <div class="container" id="developers">
+        <div class="div1">
+            <div class="txt">
+                <div>
+                    <h1>Out-of-the-box</h1>
+                    <h1>payment processing</h1>
+                    <p>Built by developers, for developers, Rainforest’s APIs give you all the tools</p>
+                    <p>you need to start
+                        processing
+                        payments in
+                        days, not months.</p>
+                    <button id="greenbtn">See components</button>
+                </div>
+            </div>
+            <div class="navdiv">
+                <div class="nav">
+                    <div class="logo">
+                        <img src="./img/rainforest-logo.png" alt="">
+                        <span><a href="./index.html" class="white">Rainforest</a></span>
+                    </div>
+                    <div class="navlinks">
+                        <li class="link" id="link1"><a href="product.html" class="navitem">Product</a><i
+                                class='bx bx-chevron-down bx-sm'></i></li>
+                        <li class="link" id="link2"><a href="developers.html" class="navitem">Developers</a><i
+                                class='bx bx-chevron-down bx-sm'></i></li>
+                        <li id="link3"><a href="./pricing.html">Pricing</a></li>
+                        <li class="link" id="link4"><a href="./company.html" class="navitem">Company</a><i
+                                class='bx bx-chevron-down bx-sm'></i></li>
+                    </div>
+                    <div class="twobtns">
+                        <button>Sign In</button>
+                        <button>Start Now</button>
+                    </div>
+
+                    <span class="bar"><i class="fa-solid fa-bars"></i></span>
+                    <!-- <i class="fa-solid fa-xmark"></i> -->
+                </div>
+                <!-- First One -->
+                <div class="box4" id="forproduct">
+                    <div class="box">
+                        <img src="./img/overviewimg.avif" alt="">
+                        <div class="text">
+                            <p>Overview</p>
+                            <p>Learn more about our product.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="./img/usecases.avif" alt="">
+                        <div class="text">
+                            <p>Use Cases</p>
+                            <p>Move money in multiple directions.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="./img/calculate.avif" alt="">
+                        <div class="text">
+                            <p>Calculate ROI</p>
+                            <p>Make cost savings, boost revenue.</p>
+                        </div>
+                    </div>
+                    <div class="box" id="lastbox">
+                        <img src="./img/hand.avif" alt="">
+                        <div class="text">
+                            <p>Get Started</p>
+                            <p>Start building with low-code componenets</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second One -->
+
+                <div class="box4" id="fordevelopers">
+                    <div class="box">
+                        <img src="./img/overview2.avif" alt="">
+                        <div class="text">
+                            <p>Overview</p>
+                            <p>Build faster with low-code components.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="./img/docu.avif" alt="">
+                        <div class="text">
+                            <p>Documentation</p>
+                            <p>Explore our detailed guides.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="./img/support.avif" alt="">
+                        <div class="text">
+                            <p>Support</p>
+                            <p>Get technical support.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="./img/secure.avif" alt="">
+                        <div class="text">
+                            <p>Security & Compliance</p>
+                            <p>Keep your data secure.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Third One -->
+
+                <div class="box4" id="forcompany">
+                    <div class="textdiv">
+                        <div>
+                            <p>Our Expertise</p>
+                            <p>Learn more about our team.</p>
+                        </div>
+                        <div>
+                            <p>Contact</p>
+                            <p>Get all the support you need.</p>
+                        </div>
+                    </div>
+                    <div class="textdiv">
+                        <div>
+                            <p>Careers</p>
+                            <p>Grow with us and find your place.</p>
+                        </div>
+                        <div>
+                            <p>Client Spotlight</p>
+                            <p>Meet our clients.</p>
+                        </div>
+                    </div>
+                    <div class="textdiv">
+                        <div>
+                            <p>Blog</p>
+                            <p>Explore the tree of knowledge.</p>
+                        </div>
+                        <div>
+                            <p>Newsroom</p>
+                            <p>Get the lates from Rainforest.</p>
+                        </div>
+                    </div>
+
+                    <div class="box" id="lastbox">
+                        <img src="./img/hand.avif" alt="">
+                        <div class="text">
+                            <p>Get Started</p>
+                            <p>Start building with low-code componenets</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="togglenav display" style="display: none;">
+                    <div>
+                        <div id="navbarlink" class="head border">
+                            <div class="txtstyle">
+                                <p>Product</p><i class='bx bx-chevron-down bx-sm' style="color: var(--green);"></i>
+                            </div>
+
+                            <div class="hiddenbox" style="display: none;">
+                                <h5><a href="product.html">Overview</a></h5>
+                                <p class="border">Learn more about our product.</p>
+
+                                <h5>Use Cases</h5>
+                                <p class="border">Make money in multiple directions.</p>
+
+                                <h5><a href="pricing.html">Calculate ROI</a></h5>
+                                <p class="">Make cost savings, boost revenue.</p>
+
+                            </div>
+                        </div>
+
+                        <div id="navbarlink" class="head border">
+                            <div class="txtstyle">
+                                <p>Developers</p><i class='bx bx-chevron-down bx-sm' style="color: var(--green);"></i>
+                            </div>
+
+                            <div class="hiddenbox" style="display: none;">
+                                <h5><a href="developers.html">Overview</a></h5>
+                                <p class="border">Build faster with low-code components.</p>
+
+                                <h5>Documentation</h5>
+                                <p class="border">Explore our detailed guides.</p>
+
+                                <h5>Support</h5>
+                                <p class="border">Get technical support.</p>
+
+                                <h5>Security & Compliance</h5>
+                                <p class="">Keep your data secure.</p>
+                            </div>
+                        </div>
+
+                        <div class="head border">
+                            <div class="txtstyle">
+                                <p><a style="text-decoration: none; color: #fff;" href="pricing.html">Pricing</a></p>
+                            </div>
+                        </div>
+                        <div id="navbarlink" class="head border">
+                            <div class="txtstyle">
+                                <p>Company</p><i class='bx bx-chevron-down bx-sm' style="color: var(--green);"></i>
+                            </div>
+
+                            <div class="hiddenbox" style="display: none;">
+                                <h5><a href="company.html">Our Expertise</a></h5>
+                                <p class="border">Learn more about our team.</p>
+
+                                <h5>Careers</h5>
+                                <p class="border">Grow with us and find your place.</p>
+
+                                <h5>Blog</h5>
+                                <p class="border">Explore the tree of knowledge.</p>
+
+                                <h5>Contact</h5>
+                                <p class="border">Get all the support you need.</p>
+
+                                <h5>Client Spotlight</h5>
+                                <p class="border">Meet our clients.</p>
+
+                                <h5>Newsroom</h5>
+                                <p class="">Get the latest from Rainforest.</p>
+                            </div>
+                        </div>
+
+                        <div style="display: flex;justify-content: center;gap: 10px;">
+                            <button id="greenbtn" style="background: #fff; color: green;">Sign In</button>
+                            <button id="greenbtn">Start now</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="siximg">
+            <img src="./img/img1.svg" id="img1" alt="">
+            <img src="./img/img2.svg" id="img2" alt="">
+            <img src="./img/img3.svg" id="img3" alt="">
+            <img src="./img/img4.svg" id="img4" alt="">
+            <img src="./img/img5.svg" id="img5" alt="">
+            <img src="./img/img6.svg" id="img6" alt="">
+        </div>
+
+        <div class="boxes4">
+            <div class="building">
+                <div>
+                    <h2>All the building blocks you need</h2>
+                    <p>Reduce development work with Rainforest Pay’s embeddable components for onboarding, payment
+                        acceptance,
+                        and reporting.</p>
+                </div>
+                <span></span>
+                <img src="./img/iPhone.svg" alt="">
+            </div>
+            <div class="twodivs">
+                <div class="docu">
+                    <h2>Interactive documentation</h2>
+                    <p style="width: 77%;">Access a wealth of interactive developer docs and guides, as well as helpful
+                        payment and
+                        integration libraries.</p>
+                    <span></span>
+                    <img src="./img/codeimg.svg" alt="">
+                </div>
+
+                <div class="world">
+                    <h2>World-class support</h2>
+                    <p style="width: 77%;">Partner with senior integration engineers via Slack and access regular
+                        working sessions.</p>
+                    <span></span>
+
+                </div>
+
+            </div>
+
+            <div class="api">
+                <h2>Active API status</h2>
+                <p style="width: 45%;">Get public visibility into issues and incidents via our status page, APIs, and
+                    proactive, transparent
+                    communication.</p>
+                <span></span>
+
+                <div class="threelines">
+                    <img src="./img/sandbox.svg" alt="">
+                    <img src="./img/production1.svg" alt="">
+                    <img src="./img/production2.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="blackdiv1">
+            <div class="flex">
+                <div class="details">
+                    <div class="head" style="margin: 15px 0;">
+                        <h3 style="color: #c1d3ff;">Details</h3>
+                        <span></span>
+                    </div>
+                    <hr>
+                    <div class="texts" id="textbg">
+                        <p>SENT AT </p>
+                        <p style="color: #c1d3ff;">Oct 24, 10:20:02 AM (ET)</p>
+                    </div>
+                    <div class="texts">
+                        <p>METHOD</p>
+                        <p style="color: #c1d3ff;">GET</p>
+                    </div>
+                    <div class="texts" id="textbg">
+                        <p>STATUS</p>
+                        <p style="color: #000; background: #c1d3ff; border-radius: 5px; padding: 5px;">200 OK</p>
+                    </div>
+                    <div class="texts">
+                        <p>CLIENT IP</p>
+                        <p style="color: #c1d3ff;">10-06.130</p>
+                    </div>
+                    <div class="texts" id="textbg">
+                        <p>API KEY</p>
+                        <p style="color: #c1d3ff;">sbx_api_jhl8374jbfFF78300dfnf</p>
+                    </div>
+                    <div class="texts">
+                        <p>AUTH TOKEN</p>
+                        <p style="color: #c1d3ff;">Session</p>
+                    </div>
+                    <div class="texts" id="textbg">
+                        <p>DURATION</p>
+                        <p style="color: #c1d3ff;">0.00sec</p>
+                    </div>
+                    <div class="texts">
+                        <p>REQUEST</p>
+                        <p style="color: #c1d3ff;">sbx-request</p>
+                    </div>
+                </div>
+                <div class="box" style="width: 391px;">
+                    <div class="devtext">
+                        <h1 style="color: #c1d3ff;margin-bottom: 30px;">Build your way with total flexibility</h1>
+                        <p style="color: #fff;">Access a library of detailed guides, walkthroughs, end-to-end sandbox
+                            testing, and real-time API
+                            logs — making it easy
+                            to continue to iterate and build, with total control.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="blackdiv1" id="black2">
+            <div class="flex">
+                <div class="box" style="width: 391px;">
+                    <div class="devtext">
+                        <h1 style="color: #c1d3ff;margin-bottom: 30px;">Cloud-native infrastructure</h1>
+                        <p style="color: #fff;">Rainforest is cloud-native — offering active-active multi-region
+                            hosting, automated testing, and continuous deployment.</p>
+                    </div>
+
+                </div>
+                <img src="./img/codeimg.png" alt="">
+
+            </div>
+        </div>
+
+
+        <div class="div9" id="devpagefooter">
+            <div class="text">
+                <p style="color: #c1d3ff;">Get started today.</p>
+                <p>Boost renenue with Rainforest</p>
+                <button id="greenbtn">Start now</button>
+            </div>
+            <div class="lastsection">
+                <div class="firstdiv">
+                    <ul>
+                        <span>Get Started</span>
+                        <li><a class="underlineStyle" href="">Book a Demo</a></li>
+                        <li><a class="underlineStyle" href="">Start with Sandbox</a></li>
+                        <li><a class="underlineStyle" href="">Sign In</a></li>
+                        <li><a class="underlineStyle" href="">Contact</a></li>
+                    </ul>
+
+                    <ul>
+                        <span>Product</span>
+                        <li><a class="underlineStyle" href="">Overview</a></li>
+                        <li><a class="underlineStyle" href="">Use Cases</a></li>
+                        <li><a class="underlineStyle" href="">Pricing</a></li>
+                    </ul>
+
+                    <ul>
+                        <span>Developers</span>
+                        <li><a class="underlineStyle" href="">Overview</a></li>
+                        <li><a class="underlineStyle" href="">Documentation</a></li>
+                        <li><a class="underlineStyle" href="">API Status</a></li>
+                        <li><a class="underlineStyle" href="">Support</a></li>
+                        <li><a class="underlineStyle" href="">Security & Compliance</a></li>
+                    </ul>
+
+                    <ul>
+                        <span>Company</span>
+                        <li><a class="underlineStyle" href="">Expertise</a></li>
+                        <li><a class="underlineStyle" href="">Blog</a></li>
+                        <li><a class="underlineStyle" href="">Glossary</a></li>
+                        <li><a class="underlineStyle" href="">Careers</a></li>
+
+                    </ul>
+
+                    <ul>
+                        <span>Social</span>
+                        <li><a class="underlineStyle" href="">LinkedIn</a></li>
+                    </ul>
+
+                    <ul>
+                        <span>Legal</span>
+                        <li><a class="underlineStyle" href="">Term & Conditions</a></li>
+                        <li><a class="underlineStyle" href="">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="seconddiv">
+                    <div class="logo">
+                        <img src="./img/icon.png" alt="">
+                        <span>Rainforest</span>
+                    </div>
+                    <div class="footer">
+                        <span>&copy;2023 Rainforest Pay, Inc</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

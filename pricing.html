@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rainforest Pay</title>
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="./script.js" defer></script>
+    <script src="./jquery.js"></script>
+  </head>
+
+  <body>
+    <div class="container" id="pricing">
+      <div class="div1">
+        <div class="first">
+          <div class="text1">
+            <h1>
+              <span style="color: green">Reduce costs</span> with pre-
+              negotiated, transparent pricing
+            </h1>
+          </div>
+          <div class="text2">
+            <p>
+              We don’t charge setup, monthly platform, or per MID fees. There’s
+              no need for you to make any minimum commitments, and we won’t
+              spring any surprises.
+            </p>
+          </div>
+        </div>
+        <div class="navdiv">
+          <div class="nav">
+            <div class="logo">
+              <img src="./img/rainforest-logo.png" alt="" />
+              <span><a href="./index.html" class="white">Rainforest</a></span>
+            </div>
+            <div class="navlinks">
+              <li class="link" id="link1">
+                <a href="product.html" class="navitem">Product</a
+                ><i class="bx bx-chevron-down bx-sm"></i>
+              </li>
+              <li class="link" id="link2">
+                <a href="developers.html" class="navitem">Developers</a
+                ><i class="bx bx-chevron-down bx-sm"></i>
+              </li>
+              <li id="link3"><a href="./pricing.html">Pricing</a></li>
+              <li class="link" id="link4">
+                <a href="./company.html" class="navitem">Company</a
+                ><i class="bx bx-chevron-down bx-sm"></i>
+              </li>
+            </div>
+            <div class="twobtns">
+              <button>Sign In</button>
+              <button>Start Now</button>
+            </div>
+
+            <span class="bar"><i class="fa-solid fa-bars"></i></span>
+            <!-- <i class="fa-solid fa-xmark"></i> -->
+          </div>
+          <!-- First One -->
+          <div class="box4" id="forproduct">
+            <div class="box">
+              <img src="./img/overviewimg.avif" alt="" />
+              <div class="text">
+                <p>Overview</p>
+                <p>Learn more about our product.</p>
+              </div>
+            </div>
+            <div class="box">
+              <img src="./img/usecases.avif" alt="" />
+              <div class="text">
+                <p>Use Cases</p>
+                <p>Move money in multiple directions.</p>
+              </div>
+            </div>
+            <div class="box">
+              <img src="./img/calculate.avif" alt="" />
+              <div class="text">
+                <p>Calculate ROI</p>
+                <p>Make cost savings, boost revenue.</p>
+              </div>
+            </div>
+            <div class="box" id="lastbox">
+              <img src="./img/hand.avif" alt="" />
+              <div class="text">
+                <p>Get Started</p>
+                <p>Start building with low-code componenets</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Second One -->
+
+          <div class="box4" id="fordevelopers">
+            <div class="box">
+              <img src="./img/overview2.avif" alt="" />
+              <div class="text">
+                <p>Overview</p>
+                <p>Build faster with low-code components.</p>
+              </div>
+            </div>
+            <div class="box">
+              <img src="./img/docu.avif" alt="" />
+              <div class="text">
+                <p>Documentation</p>
+                <p>Explore our detailed guides.</p>
+              </div>
+            </div>
+            <div class="box">
+              <img src="./img/support.avif" alt="" />
+              <div class="text">
+                <p>Support</p>
+                <p>Get technical support.</p>
+              </div>
+            </div>
+            <div class="box">
+              <img src="./img/secure.avif" alt="" />
+              <div class="text">
+                <p>Security & Compliance</p>
+                <p>Keep your data secure.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Third One -->
+
+          <div class="box4" id="forcompany">
+            <div class="textdiv">
+              <div>
+                <p>Our Expertise</p>
+                <p>Learn more about our team.</p>
+              </div>
+              <div>
+                <p>Contact</p>
+                <p>Get all the support you need.</p>
+              </div>
+            </div>
+            <div class="textdiv">
+              <div>
+                <p>Careers</p>
+                <p>Grow with us and find your place.</p>
+              </div>
+              <div>
+                <p>Client Spotlight</p>
+                <p>Meet our clients.</p>
+              </div>
+            </div>
+            <div class="textdiv">
+              <div>
+                <p>Blog</p>
+                <p>Explore the tree of knowledge.</p>
+              </div>
+              <div>
+                <p>Newsroom</p>
+                <p>Get the lates from Rainforest.</p>
+              </div>
+            </div>
+
+            <div class="box" id="lastbox">
+              <img src="./img/hand.avif" alt="" />
+              <div class="text">
+                <p>Get Started</p>
+                <p>Start building with low-code componenets</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="togglenav display">
+            <div>
+              <div id="navbarlink" class="head border">
+                <div class="txtstyle">
+                  <p>Product</p>
+                  <i
+                    class="bx bx-chevron-down bx-sm"
+                    style="color: var(--green)"
+                  ></i>
+                </div>
+
+                <div class="hiddenbox" style="display: none">
+                  <h5><a href="product.html">Overview</a></h5>
+                  <p class="border">Learn more about our product.</p>
+
+                  <h5>Use Cases</h5>
+                  <p class="border">Make money in multiple directions.</p>
+
+                  <h5><a href="pricing.html">Calculate ROI</a></h5>
+                  <p class="">Make cost savings, boost revenue.</p>
+                </div>
+              </div>
+
+              <div id="navbarlink" class="head border">
+                <div class="txtstyle">
+                  <p>Developers</p>
+                  <i
+                    class="bx bx-chevron-down bx-sm"
+                    style="color: var(--green)"
+                  ></i>
+                </div>
+
+                <div class="hiddenbox" style="display: none">
+                  <h5><a href="developers.html">Overview</a></h5>
+                  <p class="border">Build faster with low-code components.</p>
+
+                  <h5>Documentation</h5>
+                  <p class="border">Explore our detailed guides.</p>
+
+                  <h5>Support</h5>
+                  <p class="border">Get technical support.</p>
+
+                  <h5>Security & Compliance</h5>
+                  <p class="">Keep your data secure.</p>
+                </div>
+              </div>
+
+              <div class="head border">
+                <div class="txtstyle">
+                  <p>
+                    <a
+                      style="text-decoration: none; color: #fff"
+                      href="pricing.html"
+                      >Pricing</a
+                    >
+                  </p>
+                </div>
+              </div>
+              <div id="navbarlink" class="head border">
+                <div class="txtstyle">
+                  <p>Company</p>
+                  <i
+                    class="bx bx-chevron-down bx-sm"
+                    style="color: var(--green)"
+                  ></i>
+                </div>
+
+                <div class="hiddenbox" style="display: none">
+                  <h5><a href="company.html">Our Expertise</a></h5>
+                  <p class="border">Learn more about our team.</p>
+
+                  <h5>Careers</h5>
+                  <p class="border">Grow with us and find your place.</p>
+
+                  <h5>Blog</h5>
+                  <p class="border">Explore the tree of knowledge.</p>
+
+                  <h5>Contact</h5>
+                  <p class="border">Get all the support you need.</p>
+
+                  <h5>Client Spotlight</h5>
+                  <p class="border">Meet our clients.</p>
+
+                  <h5>Newsroom</h5>
+                  <p class="">Get the latest from Rainforest.</p>
+                </div>
+              </div>
+
+              <div style="display: flex; justify-content: center; gap: 10px">
+                <button id="greenbtn" style="background: #fff; color: green">
+                  Sign In
+                </button>
+                <button id="greenbtn">Start now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="second">
+        <div class="whitediv">
+          <h2>
+            <span style="color: green">Calculate</span> your revenue potential
+          </h2>
+          <p>Answer 6 questions to generate a detailed revenue model.</p>
+          <form action="">
+            <div class="rows">
+              <div class="q1">
+                <label for="one">Annual processing volume</label>
+                <div class="input">
+                  <span for="one">$</span>
+                  <input type="tel" name="one" id="one" value="200,000,000" />
+                </div>
+              </div>
+              <div class="q1">
+                <label for="two">Avg. payment size</label>
+                <div class="input">
+                  <span for="two">$</span>
+                  <input type="number" name="two" id="two" value="150" />
+                </div>
+              </div>
+              <div class="q1">
+                <label for="three">No. of merchants</label>
+                <div class="input">
+                  <input type="number" name="three" id="three" value="4000" />
+                </div>
+              </div>
+              <div class="q1">
+                <div class="text">
+                  <label for="">ACH volume</label>
+                  <span>50%</span>
+                </div>
+                <input type="range" name="" id="" value="50%" />
+              </div>
+              <div class="q1">
+                <div class="text">
+                  <label for="">Card volume</label>
+                  <span>50%</span>
+                </div>
+                <input type="range" name="" id="" value="50%" />
+              </div>
+              <div class="q1">
+                <div class="">
+                  <label for="">Describe your market</label>
+                </div>
+                <select name="" id="">
+                  <option value="">Highly competitive, many players</option>
+                  <option value="">Moderate competition, some players</option>
+                  <option value="" selected>
+                    Somewhat competitive, few players
+                  </option>
+                  <option value="">
+                    I'd like to enter my customer merchant rates instead.
+                  </option>
+                </select>
+              </div>
+            </div>
+            <div class="lastrow">
+              <div class="q1">
+                <span style="color: green">Describe your platform</span>
+                <p>Please select one of the following:</p>
+              </div>
+              <div
+                class="q1"
+                id="threebox"
+                style="display: flex; justify-content: space-between; gap: 10px"
+              >
+                <div class="box3 green" id="one">
+                  <span class="circle"></span>
+                  <span
+                    >POS transactions/ <br />
+                    501(c) designation</span
+                  >
+                </div>
+                <div class="box3" id="two">
+                  <span class="circle"></span>
+                  <span>Online transactions</span>
+                </div>
+                <div class="box3" d="three">
+                  <span class="circle"></span>
+                  <span class="color"
+                    >Busniess or International transactions</span
+                  >
+                </div>
+              </div>
+            </div>
+          </form>
+
+          <div class="greendiv">
+            <h1 style="color: greenyellow">Your return*</h1>
+            <div class="text border">
+              <p>
+                Income
+                <span style="color: greenyellow"
+                  >(what you charge customers)</span
+                >
+              </p>
+              <span>$4,974,000</span>
+            </div>
+            <div class="text border">
+              <p>
+                Rainforest Fees
+                <span style="color: greenyellow">(processor costs)</span>
+              </p>
+              <span>-$821,800</span>
+            </div>
+            <div class="text">
+              <p>
+                Interchange Fees
+                <span style="color: greenyellow">(passthrough costs)</span>
+              </p>
+              <span>-$1,800,000</span>
+            </div>
+            <div class="text" id="bg">
+              <p>
+                Net Revenue Potential
+                <span style="font-size: small"
+                  >(You keep 74% of the revenue, while Rainforest keeps
+                  26%)</span
+                >
+              </p>
+              <span>$2,352,200</span>
+            </div>
+            <div class="text">
+              <div style="display: flex; align-items: center; gap: 20px">
+                <p>Download Excel</p>
+                <p>Download Google Sheets</p>
+              </div>
+              <button id="greenbtn">Talk to a sales expert</button>
+            </div>
+          </div>
+
+          <p id="whitetext">
+            * This model is provided for your use to estimate your potential
+            revenue by monetizing your existing (or future) user base with
+            Rainforest. This model is NOT inclusive of all fee types or revenue
+            types. This model does NOT include Rainforest’s Risk Management fee,
+            which is based on risk levels assessed during Platform onboarding
+            and underwriting. This model uses an annualized overview of revenue.
+            However, Rainforest tiered fees for card volume and count are based
+            on monthly volumes, not annualized. This model is an indicative
+            estimation only, and is not a guarantee of future revenue.
+            Rainforest disclaims all warranties, express or implied, in
+            connection with your use of this model, and makes no representations
+            about the accuracy or completeness of the content. Please note that
+            the downloadable Excel and Google Sheet models will not necessarily
+            match the above results as they contain additional variables.
+          </p>
+        </div>
+      </div>
+
+      <div class="third">
+        <h1>
+          What is <span style="color: green">interchange-plus </span>pricing?
+        </h1>
+        <p>
+          We lead with a buy-rate, interchange-plus pricing model, and have no
+          revenue split. See how
+        </p>
+        <p>much money you could save versus a flat rate model below.</p>
+
+        <div class="fees">
+          <p>
+            <span style="font-size: 20px; font-weight: 500"
+              >Card Transaction Fees</span
+            >
+            + interchange & DFA at passthrough
+          </p>
+
+          <div class="twodiv">
+            <div class="dollar">
+              <div>
+                <p>Monthly Dollar Volume</p>
+                <span style="color: green">Bs</span>
+              </div>
+              <div>
+                <p>$0m - $5m</p>
+                <span style="color: green">0.30%</span>
+              </div>
+              <hr />
+              <div>
+                <p>$5m - $15m</p>
+                <span style="color: green">0.25%</span>
+              </div>
+              <hr />
+              <div>
+                <p>$15m - $25m</p>
+                <span style="color: green">0.20%</span>
+              </div>
+            </div>
+            <div class="transaction">
+              <div>
+                <p>Monthly Transaction Volume</p>
+                <span style="color: green">Bs</span>
+              </div>
+              <div>
+                <p>0 - 50k</p>
+                <span style="color: green">0.30%</span>
+              </div>
+              <hr />
+              <div>
+                <p>50k - 150k</p>
+                <span style="color: green">$0.25</span>
+              </div>
+              <hr />
+              <div>
+                <p>150k - 250k</p>
+                <span style="color: green">0.20</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg">
+            <p>
+              For higher volume pricing, feel free to reach out to a member of
+              our sales team.
+            </p>
+            <button id="greenbtn">Contact Sales</button>
+          </div>
+        </div>
+
+        <div class="twodiv ach">
+          <div class="dollar">
+            <h2>ACH & Payment Fees</h2>
+            <div>
+              <p>Standard Payout</p>
+              <p><span style="color: green">$0.20 </span>/ item</p>
+            </div>
+            <hr />
+            <div>
+              <p>ACH Transaction</p>
+              <p><span style="color: green">$0.20 </span>/ item</p>
+            </div>
+            <hr />
+            <div>
+              <p>Risk Management Fee</p>
+              <span style="color: green">Risk Dependent</span>
+            </div>
+          </div>
+
+          <div class="transaction">
+            <h2>Other Fees</h2>
+            <div>
+              <p>ACH Account Validation</p>
+              <p><span style="color: green">$1.50 </span>/ validation</p>
+            </div>
+            <hr />
+            <div>
+              <p>Account Updater</p>
+              <p><span style="color: green">$0.20 </span>/ item</p>
+            </div>
+            <hr />
+            <div>
+              <p>Disputes & Returns</p>
+              <p><span style="color: green">$10 </span>/ item</p>
+            </div>
+            <hr />
+            <div>
+              <p>EMV Terminal Monthly Fee</p>
+              <p><span style="color: green">$10 </span>/ item</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fourth">
+        <h1>Quick-fire answers</h1>
+        <div class="sixlines">
+          <div class="line">
+            <div class="text">
+              <div class="spandiv">
+                <span>+</span>
+              </div>
+              <h2 style="font-weight: 400">Do you have a revenue share?</h2>
+            </div>
+
+            <p>
+              No, we offer a buy-rate, interchange-plus pricing model giving you
+              the most control over your revenue.
+            </p>
+          </div>
+
+          <hr />
+          <div class="line">
+            <div class="text">
+              <div class="spandiv">
+                <span>+</span>
+              </div>
+              <h2 style="font-weight: 400">
+                Do you have any minimum fees or fixed monthly fees?
+              </h2>
+            </div>
+
+            <p>
+              No, we don’t have any minimum fees or fixed fees. You only pay us
+              for what you use.
+            </p>
+          </div>
+
+          <hr />
+          <div class="line">
+            <div class="text">
+              <div class="spandiv">
+                <span>+</span>
+              </div>
+              <h2 style="font-weight: 400">
+                Do you charge any PCI DSS program or non-compliance fees?
+              </h2>
+            </div>
+
+            <p>No, we do not charge any PCI DSS fees.</p>
+          </div>
+
+          <hr />
+          <div class="line">
+            <div class="text">
+              <div class="spandiv">
+                <span>+</span>
+              </div>
+              <h2 style="font-weight: 400">
+                Can I set the pricing to my merchants?
+              </h2>
+            </div>
+
+            <p>
+              Yes! You totally control how much you bill your merchants. And
+              with our buy-rate model, any optimization to pricing or
+              interchange costs goes directly to your bottom line.
+            </p>
+          </div>
+
+          <hr />
+          <div class="line">
+            <div class="text">
+              <div class="spandiv">
+                <span>+</span>
+              </div>
+              <h2 style="font-weight: 400">
+                Are the pricing tiers “pick a tier” or “fill a tier”?
+              </h2>
+            </div>
+
+            <p>
+              The pricing tiers are “pick a tier” meaning that once you move
+              into a higher tier, all your transactions are billed at that
+              single tier.
+            </p>
+          </div>
+
+          <hr />
+          <div class="line">
+            <div class="text">
+              <div class="spandiv">
+                <span>+</span>
+              </div>
+              <h2 style="font-weight: 400">
+                Do you charge an ACH volume-based fee?
+              </h2>
+            </div>
+            <p>
+              No, we do not. However, for many embedded software payment
+              solutions charging an ACH volume fee to your merchants is an
+              excellent way to boost margins.
+            </p>
+          </div>
+
+          <hr />
+        </div>
+      </div>
+
+      <div class="div9">
+        <div class="text">
+          <p>Get started today.</p>
+          <p>Boost renenue with Rainforest</p>
+          <button id="greenbtn">Start now</button>
+        </div>
+        <div class="lastsection">
+          <div class="firstdiv">
+            <ul>
+              <span>Get Started</span>
+              <li><a class="underlineStyle" href="">Book a Demo</a></li>
+              <li><a class="underlineStyle" href="">Start with Sandbox</a></li>
+              <li><a class="underlineStyle" href="">Sign In</a></li>
+              <li><a class="underlineStyle" href="">Contact</a></li>
+            </ul>
+
+            <ul>
+              <span>Product</span>
+              <li><a class="underlineStyle" href="">Overview</a></li>
+              <li><a class="underlineStyle" href="">Use Cases</a></li>
+              <li><a class="underlineStyle" href="">Pricing</a></li>
+            </ul>
+
+            <ul>
+              <span>Developers</span>
+              <li><a class="underlineStyle" href="">Overview</a></li>
+              <li><a class="underlineStyle" href="">Documentation</a></li>
+              <li><a class="underlineStyle" href="">API Status</a></li>
+              <li><a class="underlineStyle" href="">Support</a></li>
+              <li>
+                <a class="underlineStyle" href="">Security & Compliance</a>
+              </li>
+            </ul>
+
+            <ul>
+              <span>Company</span>
+              <li><a class="underlineStyle" href="">Expertise</a></li>
+              <li><a class="underlineStyle" href="">Blog</a></li>
+              <li><a class="underlineStyle" href="">Glossary</a></li>
+              <li><a class="underlineStyle" href="">Careers</a></li>
+            </ul>
+
+            <ul>
+              <span>Social</span>
+              <li><a class="underlineStyle" href="">LinkedIn</a></li>
+            </ul>
+
+            <ul>
+              <span>Legal</span>
+              <li><a class="underlineStyle" href="">Term & Conditions</a></li>
+              <li><a class="underlineStyle" href="">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="seconddiv">
+            <div class="logo">
+              <img src="./img/icon.png" alt="" />
+              <span>Rainforest</span>
+            </div>
+            <div class="footer">
+              <span>&copy;2023 Rainforest Pay, Inc</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
